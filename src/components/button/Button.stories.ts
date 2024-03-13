@@ -51,6 +51,7 @@ export const Small: Story = {
   },
 };
 
+
 export const Warning: Story = {
   args: {
     primary: true,
