@@ -16,14 +16,20 @@ export const TextInput = ({
   const [value, setValue] = useState("");
 
   return (
-    <div>
-      <label htmlFor={name}>{label}</label>
+    <div className="mb-4">
+      <label
+        htmlFor={name}
+        className="block text-gray-700 text-sm font-bold mb-2"
+      >
+        {label}
+      </label>
       <input
         value={value}
         type={type}
         id="text-input"
         placeholder={placeholder}
         onChange={(e) => setValue(e.target.value)}
+        className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
       />
     </div>
   );

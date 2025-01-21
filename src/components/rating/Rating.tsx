@@ -21,9 +21,9 @@ function Rating(props: RatingProps) {
         );
     }
 
-    return [...Array(props.numberOfStars)].map((_, i) => {
+    return [...Array<number>(props.numberOfStars)].map((_, i) => {
         return star(i, i < selectedStars, () => setSelectedStars(i + 1))
     });
-};
+}
 
 export default Rating;
