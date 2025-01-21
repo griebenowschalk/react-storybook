@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import Rating, { RatingProps } from "./Rating";
 
 const meta = {
-    title: "Rating",
+    title: "Components/Rating",
     component: Rating,
 } satisfies Meta<typeof Rating>;
 
