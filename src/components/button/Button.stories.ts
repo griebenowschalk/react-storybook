@@ -28,6 +28,7 @@ export const Primary: Story = {
   args: {
     primary: true,
     label: 'Button',
+    backgroundColor: "#1a0a81"
   },
 };
 
@@ -56,6 +57,6 @@ export const Warning: Story = {
   args: {
     primary: true,
     label: 'Delete now',
-    backgroundColor: 'red',
+    backgroundColor: "#a20303",
   }
 };
